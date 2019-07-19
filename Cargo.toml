@@ -5,4 +5,4 @@ authors = ["Raoul van Putten"]
 edition = "2018"
 
 [dependencies]
-vdb = "0.1.*"
+vdb = { path = "../vdb" }

@@ -1,3 +1,4 @@
+use std::collections::HashMap;
 use std::fs::File;
 use std::io;
 use std::io::BufRead;
@@ -17,7 +18,7 @@ struct DictEntry {
 
 /// Read lines of a file into a Vec<String>.
 /// Ignores lines beginning with '#'.
-pub fn read_file_to_vec(filename: &str) -> Vec<String> {
+fn read_file_to_vec(filename: &str) -> Vec<String> {
     let f = File::open(filename).unwrap();
     let file = BufReader::new(&f);
     file.lines()
@@ -68,7 +69,7 @@ fn update_date(db: &mut Db, row_id: RowId) {
 /// appended to the same row. Duplicates are filtered.
 fn add_word(db: &mut Db, word: &str, translations: &[String], add_time: bool, update_count: bool) {
     if let Some(row_id) = db.find_first_row_id_by_value("name", &Db::db_string(word)) {
-        let entries = db.entries_from_row_ids(&[row_id], vec![String::from("value")]);
+        let entries = db.entries_from_row_ids(&[row_id], &["value"]);
         for value in translations {
             if let Some(_entry) = entries
                 .iter()
@@ -241,13 +242,13 @@ fn find_row_ids(
 fn find_row_ids_to_entries(db: &Db, row_ids: &[RowId]) -> Vec<DictEntry> {
     let mut result: Vec<DictEntry> = vec![];
 
-    let names = vec![
-        String::from("search_index"),
-        String::from("name"),
-        String::from("value"),
-        String::from("conjugation"),
-        String::from("add_date"),
-        String::from("add_counter"),
+    let names = &[
+        "search_index",
+        "name",
+        "value",
+        "conjugation",
+        "add_date",
+        "add_counter",
     ];
     let rows = db.entries_from_row_ids(row_ids, names);
     for row in rows {
@@ -344,20 +345,19 @@ fn main_loop(db_vocabulary: &mut Db, db_personal: &mut Db) {
             display_personal_db(db_personal, 1, true, None);
         } else {
             let mut words = trimmed.split_whitespace();
-            if words.next() == Some("p") {
-                display_personal_db(db_personal, 100, false, words.next());
-            } else {
-                db_vocabulary.delete_entry_all("search_index");
-                display_personal_db(db_personal, 30, true, None);
-                find_and_display(db_vocabulary, trimmed, max_results);
+            match words.next() {
+                Some("p") => display_personal_db(db_personal, 100, false, words.next()),
+                Some("stats") => display_stats(db_personal),
+                _ => {
+                    db_vocabulary.delete_entry_all("search_index");
+                    display_personal_db(db_personal, 30, true, None);
+                    find_and_display(db_vocabulary, trimmed, max_results);
+                }
             }
         }
 
         input.clear();
 
-        println!(
-            "================================================================================"
-        );
         println!();
         print!("Enter search term or enter number to save in personal dictionary: ");
         io::stdout().flush().unwrap();
@@ -375,6 +375,39 @@ fn sort_db(entries: &mut Vec<DictEntry>) {
     );
 }
 
+fn display_stats(db: &Db) {
+    let row_ids = db.find_by_name("add_date");
+    let entries = db.entries_from_row_ids(&row_ids, &["add_date"]);
+    let dates = entries
+        .iter()
+        .filter_map(|entry| {
+            if !entry.is_empty() {
+                entry[0].value.date()
+            } else {
+                None
+            }
+        })
+        .collect::<Vec<String>>();
+
+    let mut stats = HashMap::new();
+    for date in dates {
+        let mut stat = stats.entry(date).or_insert(0);
+        *stat += 1;
+    }
+    let mut v: Vec<String> = vec![];
+    for (stat, count) in stats {
+        v.push(format!("{} {}", stat, count));
+    }
+    v.sort();
+
+    println!();
+    println!("Date added Count");
+    println!("---------- -----");
+    for x in v {
+        println!("{}", x);
+    }
+}
+
 fn display_personal_db(
     db_personal: &mut Db,
     max_rows: usize,
@@ -384,11 +417,10 @@ fn display_personal_db(
     println!();
     println!("Personal dictionary (last {} entries):", max_rows);
 
-    //let row_ids = db_personal.last_n_rows(max_rows);
     let row_ids = if let Some(starts_with) = starts_with {
         db_personal.select_row_ids(&[Predicate::new_starts_with("name", starts_with)], None)
     } else {
-        db_personal.enumerate_row_ids()
+        db_personal.find_all_row_ids()
     };
     let mut results = find_row_ids_to_entries(db_personal, &row_ids);
     sort_db(&mut results);
@@ -501,7 +533,7 @@ fn find_and_display(db: &mut Db, search_term: &str, max_results: usize) {
     let number_conjugations = rows_conjugation.len();
     if number_equal == 0 && number_conjugations > 0 {
         println!("\nMatch in conjugations:");
-        add_numbers(db, &rows_conjugation, number_conjugations);
+        add_numbers(db, &rows_conjugation, 0);
         present(&db, &rows_conjugation, number_conjugations == max_results);
     } else {
         let rows_starts_with_full = find_row_ids(
@@ -528,10 +560,6 @@ fn find_and_display(db: &mut Db, search_term: &str, max_results: usize) {
                 let mut new_search_term = search_term.to_string();
                 new_search_term.pop();
                 if new_search_term.len() >= 3 {
-                    println!(
-                        "{} not found. Searching for {} instead.",
-                        search_term, new_search_term
-                    );
                     find_and_display(db, &new_search_term, max_results);
                     return;
                 } else {
@@ -563,6 +591,7 @@ fn find_and_display(db: &mut Db, search_term: &str, max_results: usize) {
 
 fn add_numbers(db: &mut Db, row_ids: &[RowId], offset: usize) {
     let count = row_ids.len();
+
     let reverse_numbers = (0..count).map(|n| count - n + offset);
     for (row_id, index) in row_ids.iter().zip(reverse_numbers) {
         let row_id: RowId = *row_id;
@@ -580,10 +609,9 @@ fn save(db: &Db, db_name: &str) {
     println!("Saving database {}.", db_name);
     if let Ok(_result) = db.save() {
         let predicates = vec![Predicate::new_any_string("value")];
-        let entries = vec![String::from("value")];
         let row_ids = db.select_row_ids(&predicates, None);
         let words = row_ids.len();
-        let result = db.entries_from_row_ids(&row_ids, entries);
+        let result = db.entries_from_row_ids(&row_ids, &["value"]);
         let translations = result.iter().map(|entry| entry.len()).sum::<usize>();
         println!("Saved {} words and {} translations.", words, translations);
     } else {

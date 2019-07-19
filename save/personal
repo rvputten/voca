@@ -1,6 +1,6 @@
 {
   "full_filename": "save/personal",
-  "row_max": 387,
+  "row_max": 472,
   "rows": [
     {
       "row_id": 1,
@@ -3877,7 +3877,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 1
+          "DbInt": 2
         }
       }
     },
@@ -3886,7 +3886,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-10T19:56:25.928037906"
+          "DbDateTime": "2019-07-19T21:16:29.429165510"
         }
       }
     },
@@ -3922,7 +3922,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 2
+          "DbInt": 3
         }
       }
     },
@@ -3931,7 +3931,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-10T20:32:25.345050456"
+          "DbDateTime": "2019-07-19T22:24:42.731375941"
         }
       }
     },
@@ -4471,7 +4471,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 2
+          "DbInt": 3
         }
       }
     },
@@ -4480,7 +4480,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-11T15:16:22.163575357"
+          "DbDateTime": "2019-07-19T21:32:24.557340166"
         }
       }
     },
@@ -4561,7 +4561,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 1
+          "DbInt": 2
         }
       }
     },
@@ -4570,7 +4570,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-11T15:42:05.510001429"
+          "DbDateTime": "2019-07-19T21:14:13.326310836"
         }
       }
     },
@@ -4876,7 +4876,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 1
+          "DbInt": 2
         }
       }
     },
@@ -4885,7 +4885,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-11T17:16:02.711141510"
+          "DbDateTime": "2019-07-19T21:06:59.745891789"
         }
       }
     },
@@ -5542,7 +5542,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 1
+          "DbInt": 4
         }
       }
     },
@@ -5551,7 +5551,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-11T17:23:15.235958934"
+          "DbDateTime": "2019-07-19T22:28:35.697397012"
         }
       }
     },
@@ -7045,7 +7045,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 1
+          "DbInt": 2
         }
       }
     },
@@ -7054,7 +7054,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-11T20:57:13.037908360"
+          "DbDateTime": "2019-07-19T21:51:17.628214667"
         }
       }
     },
@@ -7324,7 +7324,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 1
+          "DbInt": 2
         }
       }
     },
@@ -7333,7 +7333,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-11T23:59:30.109120631"
+          "DbDateTime": "2019-07-19T22:21:02.606153750"
         }
       }
     },
@@ -7909,7 +7909,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 1
+          "DbInt": 2
         }
       }
     },
@@ -7918,7 +7918,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-12T00:10:43.663246451"
+          "DbDateTime": "2019-07-19T21:54:36.298770524"
         }
       }
     },
@@ -8035,7 +8035,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 1
+          "DbInt": 3
         }
       }
     },
@@ -8044,7 +8044,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-12T00:11:15.054910210"
+          "DbDateTime": "2019-07-19T22:20:01.350254376"
         }
       }
     },
@@ -9547,7 +9547,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 1
+          "DbInt": 2
         }
       }
     },
@@ -9556,7 +9556,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-13T17:00:09.537049488"
+          "DbDateTime": "2019-07-19T22:48:18.406984332"
         }
       }
     },
@@ -11149,7 +11149,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 1
+          "DbInt": 3
         }
       }
     },
@@ -11158,7 +11158,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-16T11:39:18.364730093"
+          "DbDateTime": "2019-07-19T22:01:49.063056949"
         }
       }
     },
@@ -12661,7 +12661,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 1
+          "DbInt": 2
         }
       }
     },
@@ -12670,7 +12670,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-16T12:08:32.341579579"
+          "DbDateTime": "2019-07-19T22:48:30.326849409"
         }
       }
     },
@@ -12868,7 +12868,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 1
+          "DbInt": 2
         }
       }
     },
@@ -12877,7 +12877,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-16T12:10:09.948710567"
+          "DbDateTime": "2019-07-19T21:53:01.651474996"
         }
       }
     },
@@ -13291,7 +13291,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 1
+          "DbInt": 2
         }
       }
     },
@@ -13300,7 +13300,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-18T13:28:11.926450245"
+          "DbDateTime": "2019-07-19T21:55:56.154303809"
         }
       }
     },
@@ -13894,7 +13894,7 @@
       "entry": {
         "name": "add_counter",
         "value": {
-          "DbInt": 1
+          "DbInt": 2
         }
       }
     },
@@ -13903,7 +13903,7 @@
       "entry": {
         "name": "add_date",
         "value": {
-          "DbDateTime": "2019-07-18T14:08:29.296444664"
+          "DbDateTime": "2019-07-19T22:18:38.846955369"
         }
       }
     },
@@ -15938,6 +15938,3714 @@
         "name": "add_date",
         "value": {
           "DbDateTime": "2019-07-18T22:49:32.001305514"
+        }
+      }
+    },
+    {
+      "row_id": 388,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "amo"
+        }
+      }
+    },
+    {
+      "row_id": 388,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "master"
+        }
+      }
+    },
+    {
+      "row_id": 388,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 388,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T19:01:08.396392512"
+        }
+      }
+    },
+    {
+      "row_id": 389,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "odio"
+        }
+      }
+    },
+    {
+      "row_id": 389,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "hate"
+        }
+      }
+    },
+    {
+      "row_id": 389,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 389,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T19:01:11.180365296"
+        }
+      }
+    },
+    {
+      "row_id": 390,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "mismo"
+        }
+      }
+    },
+    {
+      "row_id": 390,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "same; identical; one and the same; indicates that the two compared noun clauses both represent the one thing"
+        }
+      }
+    },
+    {
+      "row_id": 390,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "similar; alike; practically identical; indicates that the two compared noun clauses have one or more matching qualities"
+        }
+      }
+    },
+    {
+      "row_id": 390,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "self; myself; yourself; himself; herself; itself; ourselves; themselves; emphasises the identity or singularity of the modified noun phrase"
+        }
+      }
+    },
+    {
+      "row_id": 390,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "own; emaphasizes the owner or the exclusivity of ownership in a noun phrase with a possessive pronoun"
+        }
+      }
+    },
+    {
+      "row_id": 390,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 390,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T19:02:39.323681145"
+        }
+      }
+    },
+    {
+      "row_id": 391,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "pretensión"
+        }
+      }
+    },
+    {
+      "row_id": 391,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "claim"
+        }
+      }
+    },
+    {
+      "row_id": 391,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 391,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:04:58.013347354"
+        }
+      }
+    },
+    {
+      "row_id": 392,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "exigir"
+        }
+      }
+    },
+    {
+      "row_id": 392,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to demand; to require"
+        }
+      }
+    },
+    {
+      "row_id": 392,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to exact"
+        }
+      }
+    },
+    {
+      "row_id": 392,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 2
+        }
+      }
+    },
+    {
+      "row_id": 392,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:06:21.628978705"
+        }
+      }
+    },
+    {
+      "row_id": 393,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "escuchar"
+        }
+      }
+    },
+    {
+      "row_id": 393,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to listen to"
+        }
+      }
+    },
+    {
+      "row_id": 393,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 393,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:06:34.041960852"
+        }
+      }
+    },
+    {
+      "row_id": 394,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "propuesta"
+        }
+      }
+    },
+    {
+      "row_id": 394,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "proposal"
+        }
+      }
+    },
+    {
+      "row_id": 394,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 394,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:06:46.546023831"
+        }
+      }
+    },
+    {
+      "row_id": 395,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "avisar"
+        }
+      }
+    },
+    {
+      "row_id": 395,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to notify"
+        }
+      }
+    },
+    {
+      "row_id": 395,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 395,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:07:48.425477489"
+        }
+      }
+    },
+    {
+      "row_id": 396,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "petrolero"
+        }
+      }
+    },
+    {
+      "row_id": 396,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "diesel (of vehicles powered with diesel fuel)"
+        }
+      }
+    },
+    {
+      "row_id": 396,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "oil, petrol (related to mineral oil)"
+        }
+      }
+    },
+    {
+      "row_id": 396,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "oil tanker"
+        }
+      }
+    },
+    {
+      "row_id": 396,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 396,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:11:34.095669112"
+        }
+      }
+    },
+    {
+      "row_id": 25,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 25,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:12:11.935111122"
+        }
+      }
+    },
+    {
+      "row_id": 397,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "incautar"
+        }
+      }
+    },
+    {
+      "row_id": 397,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to confiscate"
+        }
+      }
+    },
+    {
+      "row_id": 397,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to seize"
+        }
+      }
+    },
+    {
+      "row_id": 397,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 397,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:12:25.983267676"
+        }
+      }
+    },
+    {
+      "row_id": 398,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "incumplir"
+        }
+      }
+    },
+    {
+      "row_id": 398,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to disobey (rules)"
+        }
+      }
+    },
+    {
+      "row_id": 398,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to fail to complete"
+        }
+      }
+    },
+    {
+      "row_id": 398,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 398,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:13:30.462698670"
+        }
+      }
+    },
+    {
+      "row_id": 399,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "código"
+        }
+      }
+    },
+    {
+      "row_id": 399,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "code"
+        }
+      }
+    },
+    {
+      "row_id": 399,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 399,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:13:46.878231351"
+        }
+      }
+    },
+    {
+      "row_id": 400,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "atentamente"
+        }
+      }
+    },
+    {
+      "row_id": 400,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "attentively"
+        }
+      }
+    },
+    {
+      "row_id": 400,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "best regards (polite closing of a letter)"
+        }
+      }
+    },
+    {
+      "row_id": 400,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "politely"
+        }
+      }
+    },
+    {
+      "row_id": 400,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 400,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:15:20.421788458"
+        }
+      }
+    },
+    {
+      "row_id": 401,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "informe"
+        }
+      }
+    },
+    {
+      "row_id": 401,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "misshapen"
+        }
+      }
+    },
+    {
+      "row_id": 401,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "shapeless, formless"
+        }
+      }
+    },
+    {
+      "row_id": 401,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "report"
+        }
+      }
+    },
+    {
+      "row_id": 401,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 401,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:15:30.765457319"
+        }
+      }
+    },
+    {
+      "row_id": 402,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "amenaza"
+        }
+      }
+    },
+    {
+      "row_id": 402,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "threat"
+        }
+      }
+    },
+    {
+      "row_id": 402,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 402,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:16:10.565019288"
+        }
+      }
+    },
+    {
+      "row_id": 403,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "partir"
+        }
+      }
+    },
+    {
+      "row_id": 403,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to divide, to split"
+        }
+      }
+    },
+    {
+      "row_id": 403,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to go away, to leave, to depart"
+        }
+      }
+    },
+    {
+      "row_id": 403,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 403,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:17:16.436880626"
+        }
+      }
+    },
+    {
+      "row_id": 26,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 26,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:23:36.481337946"
+        }
+      }
+    },
+    {
+      "row_id": 404,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "inclinar"
+        }
+      }
+    },
+    {
+      "row_id": 404,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to tilt"
+        }
+      }
+    },
+    {
+      "row_id": 404,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 404,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:31:28.085739686"
+        }
+      }
+    },
+    {
+      "row_id": 405,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "oponer"
+        }
+      }
+    },
+    {
+      "row_id": 405,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to be opposed, to be in opposition"
+        }
+      }
+    },
+    {
+      "row_id": 405,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to pit (one thing against another); to set in opposition"
+        }
+      }
+    },
+    {
+      "row_id": 405,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to put up (resistance etc.)"
+        }
+      }
+    },
+    {
+      "row_id": 405,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 405,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:33:04.621106760"
+        }
+      }
+    },
+    {
+      "row_id": 116,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 116,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:46:37.134104110"
+        }
+      }
+    },
+    {
+      "row_id": 406,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "fiscalía"
+        }
+      }
+    },
+    {
+      "row_id": 406,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "office of the public prosecutor"
+        }
+      }
+    },
+    {
+      "row_id": 406,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 406,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:47:09.230117239"
+        }
+      }
+    },
+    {
+      "row_id": 407,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "delito"
+        }
+      }
+    },
+    {
+      "row_id": 407,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "crime; offense"
+        }
+      }
+    },
+    {
+      "row_id": 407,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 407,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:47:21.150005586"
+        }
+      }
+    },
+    {
+      "row_id": 408,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "seguir"
+        }
+      }
+    },
+    {
+      "row_id": 408,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to continue; to go on; to keep on, can be combined with a present participle (-ndo form) to indicate that someone or something continues doing something"
+        }
+      }
+    },
+    {
+      "row_id": 408,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to follow"
+        }
+      }
+    },
+    {
+      "row_id": 408,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 408,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:47:43.645865979"
+        }
+      }
+    },
+    {
+      "row_id": 409,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "concierto"
+        }
+      }
+    },
+    {
+      "row_id": 409,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "concert"
+        }
+      }
+    },
+    {
+      "row_id": 409,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "concerto"
+        }
+      }
+    },
+    {
+      "row_id": 409,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 409,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:48:02.797509846"
+        }
+      }
+    },
+    {
+      "row_id": 410,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "directo"
+        }
+      }
+    },
+    {
+      "row_id": 410,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "direct"
+        }
+      }
+    },
+    {
+      "row_id": 410,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 410,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:48:09.269634089"
+        }
+      }
+    },
+    {
+      "row_id": 411,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "calor"
+        }
+      }
+    },
+    {
+      "row_id": 411,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "heat"
+        }
+      }
+    },
+    {
+      "row_id": 411,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 411,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:48:39.429356672"
+        }
+      }
+    },
+    {
+      "row_id": 412,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "ayer"
+        }
+      }
+    },
+    {
+      "row_id": 412,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "yesterday"
+        }
+      }
+    },
+    {
+      "row_id": 412,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "day's gone by; yesteryear; the past"
+        }
+      }
+    },
+    {
+      "row_id": 412,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 412,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:50:00.268865136"
+        }
+      }
+    },
+    {
+      "row_id": 413,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "escándalo"
+        }
+      }
+    },
+    {
+      "row_id": 413,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "scandal"
+        }
+      }
+    },
+    {
+      "row_id": 413,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 413,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:51:05.700370549"
+        }
+      }
+    },
+    {
+      "row_id": 414,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "multar"
+        }
+      }
+    },
+    {
+      "row_id": 414,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "fine, penalise, book"
+        }
+      }
+    },
+    {
+      "row_id": 414,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 414,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:51:45.907948911"
+        }
+      }
+    },
+    {
+      "row_id": 415,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "multa"
+        }
+      }
+    },
+    {
+      "row_id": 415,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "fine (fee issued as punishment for breaking the law)"
+        }
+      }
+    },
+    {
+      "row_id": 415,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 415,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:51:51.619970990"
+        }
+      }
+    },
+    {
+      "row_id": 416,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "encina"
+        }
+      }
+    },
+    {
+      "row_id": 416,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "live oak, evergreen oak"
+        }
+      }
+    },
+    {
+      "row_id": 416,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 416,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:52:12.155796614"
+        }
+      }
+    },
+    {
+      "row_id": 417,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "besar"
+        }
+      }
+    },
+    {
+      "row_id": 417,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to kiss"
+        }
+      }
+    },
+    {
+      "row_id": 417,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 417,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:52:38.747471091"
+        }
+      }
+    },
+    {
+      "row_id": 418,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "cotizar"
+        }
+      }
+    },
+    {
+      "row_id": 418,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to esteem or regard highly"
+        }
+      }
+    },
+    {
+      "row_id": 418,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to pay or set a quota"
+        }
+      }
+    },
+    {
+      "row_id": 418,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to quote or set a price"
+        }
+      }
+    },
+    {
+      "row_id": 418,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 418,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:52:55.491547109"
+        }
+      }
+    },
+    {
+      "row_id": 419,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "autónomo"
+        }
+      }
+    },
+    {
+      "row_id": 419,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "autonomous"
+        }
+      }
+    },
+    {
+      "row_id": 419,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 419,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:54:28.066820883"
+        }
+      }
+    },
+    {
+      "row_id": 420,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "pintor"
+        }
+      }
+    },
+    {
+      "row_id": 420,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "painter"
+        }
+      }
+    },
+    {
+      "row_id": 420,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 420,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:56:16.466064757"
+        }
+      }
+    },
+    {
+      "row_id": 421,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "prado"
+        }
+      }
+    },
+    {
+      "row_id": 421,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "meadow"
+        }
+      }
+    },
+    {
+      "row_id": 421,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 421,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:56:54.241746031"
+        }
+      }
+    },
+    {
+      "row_id": 422,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "cuadro"
+        }
+      }
+    },
+    {
+      "row_id": 422,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "infield"
+        }
+      }
+    },
+    {
+      "row_id": 422,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "painting"
+        }
+      }
+    },
+    {
+      "row_id": 422,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "picture"
+        }
+      }
+    },
+    {
+      "row_id": 422,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "squad"
+        }
+      }
+    },
+    {
+      "row_id": 422,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "square"
+        }
+      }
+    },
+    {
+      "row_id": 422,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 422,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:57:03.857634240"
+        }
+      }
+    },
+    {
+      "row_id": 423,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "oculto"
+        }
+      }
+    },
+    {
+      "row_id": 423,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "occult"
+        }
+      }
+    },
+    {
+      "row_id": 423,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 423,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:57:12.257613271"
+        }
+      }
+    },
+    {
+      "row_id": 424,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "zapato"
+        }
+      }
+    },
+    {
+      "row_id": 424,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "shoe"
+        }
+      }
+    },
+    {
+      "row_id": 424,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 424,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:58:00.825251444"
+        }
+      }
+    },
+    {
+      "row_id": 425,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "aprobar"
+        }
+      }
+    },
+    {
+      "row_id": 425,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to approve"
+        }
+      }
+    },
+    {
+      "row_id": 425,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to pass (an exam)"
+        }
+      }
+    },
+    {
+      "row_id": 425,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 425,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T21:59:51.624391555"
+        }
+      }
+    },
+    {
+      "row_id": 426,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "ya"
+        }
+      }
+    },
+    {
+      "row_id": 426,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "already"
+        }
+      }
+    },
+    {
+      "row_id": 426,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "anymore; no longer"
+        }
+      }
+    },
+    {
+      "row_id": 426,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "yes"
+        }
+      }
+    },
+    {
+      "row_id": 426,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "since, now"
+        }
+      }
+    },
+    {
+      "row_id": 426,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "emphatical"
+        }
+      }
+    },
+    {
+      "row_id": 426,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "immediately"
+        }
+      }
+    },
+    {
+      "row_id": 426,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "only"
+        }
+      }
+    },
+    {
+      "row_id": 426,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "in the near future; soon"
+        }
+      }
+    },
+    {
+      "row_id": 426,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "now"
+        }
+      }
+    },
+    {
+      "row_id": 426,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "first (something) then (something else); first (something), now (something else)"
+        }
+      }
+    },
+    {
+      "row_id": 426,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "whether (something) or (something else)"
+        }
+      }
+    },
+    {
+      "row_id": 426,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 426,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:00:11.784188032"
+        }
+      }
+    },
+    {
+      "row_id": 427,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "acogida"
+        }
+      }
+    },
+    {
+      "row_id": 427,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "welcome, reception"
+        }
+      }
+    },
+    {
+      "row_id": 427,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 2
+        }
+      }
+    },
+    {
+      "row_id": 427,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:24:18.451815859"
+        }
+      }
+    },
+    {
+      "row_id": 428,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "inversionista"
+        }
+      }
+    },
+    {
+      "row_id": 428,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "investor"
+        }
+      }
+    },
+    {
+      "row_id": 428,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 2
+        }
+      }
+    },
+    {
+      "row_id": 428,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:21:32.493490924"
+        }
+      }
+    },
+    {
+      "row_id": 429,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "mil millones"
+        }
+      }
+    },
+    {
+      "row_id": 429,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "one billion, 109"
+        }
+      }
+    },
+    {
+      "row_id": 429,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 429,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:01:22.815307181"
+        }
+      }
+    },
+    {
+      "row_id": 430,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "apostar"
+        }
+      }
+    },
+    {
+      "row_id": 430,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to bet"
+        }
+      }
+    },
+    {
+      "row_id": 430,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 430,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:03:32.646330894"
+        }
+      }
+    },
+    {
+      "row_id": 431,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "socio"
+        }
+      }
+    },
+    {
+      "row_id": 431,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "buddy, mate"
+        }
+      }
+    },
+    {
+      "row_id": 431,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "member"
+        }
+      }
+    },
+    {
+      "row_id": 431,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "partner"
+        }
+      }
+    },
+    {
+      "row_id": 431,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 431,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:03:46.782474171"
+        }
+      }
+    },
+    {
+      "row_id": 432,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "referencia"
+        }
+      }
+    },
+    {
+      "row_id": 432,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "reference"
+        }
+      }
+    },
+    {
+      "row_id": 432,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 432,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:03:53.766497474"
+        }
+      }
+    },
+    {
+      "row_id": 433,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "negocio"
+        }
+      }
+    },
+    {
+      "row_id": 433,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "business"
+        }
+      }
+    },
+    {
+      "row_id": 433,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "deal"
+        }
+      }
+    },
+    {
+      "row_id": 433,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "shop"
+        }
+      }
+    },
+    {
+      "row_id": 433,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 433,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:05:15.421334437"
+        }
+      }
+    },
+    {
+      "row_id": 434,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "delante"
+        }
+      }
+    },
+    {
+      "row_id": 434,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "in front of, forwards"
+        }
+      }
+    },
+    {
+      "row_id": 434,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 434,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:05:45.853612975"
+        }
+      }
+    },
+    {
+      "row_id": 435,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "trata"
+        }
+      }
+    },
+    {
+      "row_id": 435,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "trade, slave trade"
+        }
+      }
+    },
+    {
+      "row_id": 435,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 435,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:05:59.549073"
+        }
+      }
+    },
+    {
+      "row_id": 436,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "cierto"
+        }
+      }
+    },
+    {
+      "row_id": 436,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "True, certain, sure"
+        }
+      }
+    },
+    {
+      "row_id": 436,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "Certain, sure"
+        }
+      }
+    },
+    {
+      "row_id": 436,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "A certain, a specific"
+        }
+      }
+    },
+    {
+      "row_id": 436,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 436,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:06:29.892858454"
+        }
+      }
+    },
+    {
+      "row_id": 437,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "lugar"
+        }
+      }
+    },
+    {
+      "row_id": 437,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "place"
+        }
+      }
+    },
+    {
+      "row_id": 437,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 437,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:09:05.891522393"
+        }
+      }
+    },
+    {
+      "row_id": 438,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "prestado"
+        }
+      }
+    },
+    {
+      "row_id": 438,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "lent"
+        }
+      }
+    },
+    {
+      "row_id": 438,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 438,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:12:00.322120034"
+        }
+      }
+    },
+    {
+      "row_id": 439,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "ampliar"
+        }
+      }
+    },
+    {
+      "row_id": 439,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to extend, expand, enlarge"
+        }
+      }
+    },
+    {
+      "row_id": 439,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 439,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:12:38.578030111"
+        }
+      }
+    },
+    {
+      "row_id": 440,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "desarrollar"
+        }
+      }
+    },
+    {
+      "row_id": 440,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to develop"
+        }
+      }
+    },
+    {
+      "row_id": 440,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 440,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:12:52.185756015"
+        }
+      }
+    },
+    {
+      "row_id": 441,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "amparo"
+        }
+      }
+    },
+    {
+      "row_id": 441,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "aid, relief"
+        }
+      }
+    },
+    {
+      "row_id": 441,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "exemption, pardon"
+        }
+      }
+    },
+    {
+      "row_id": 441,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "protection"
+        }
+      }
+    },
+    {
+      "row_id": 441,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "shelter, sanctuary"
+        }
+      }
+    },
+    {
+      "row_id": 441,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 441,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:12:58.401708740"
+        }
+      }
+    },
+    {
+      "row_id": 442,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "al"
+        }
+      }
+    },
+    {
+      "row_id": 442,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "(in front of the infinitive of a verb) as soon as, when, upon"
+        }
+      }
+    },
+    {
+      "row_id": 442,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "(contraction of a el) at the, to the"
+        }
+      }
+    },
+    {
+      "row_id": 442,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 442,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:13:11.929796301"
+        }
+      }
+    },
+    {
+      "row_id": 443,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "rasgo"
+        }
+      }
+    },
+    {
+      "row_id": 443,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "act, flourish, stroke"
+        }
+      }
+    },
+    {
+      "row_id": 443,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "characteristic, feature, trait"
+        }
+      }
+    },
+    {
+      "row_id": 443,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 443,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:14:17.753192773"
+        }
+      }
+    },
+    {
+      "row_id": 444,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "prestar"
+        }
+      }
+    },
+    {
+      "row_id": 444,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to give, pay (e.g., attention)"
+        }
+      }
+    },
+    {
+      "row_id": 444,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to lend"
+        }
+      }
+    },
+    {
+      "row_id": 444,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 444,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:14:48.569055083"
+        }
+      }
+    },
+    {
+      "row_id": 445,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "relacionado"
+        }
+      }
+    },
+    {
+      "row_id": 445,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "related"
+        }
+      }
+    },
+    {
+      "row_id": 445,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 445,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:17:41.759702017"
+        }
+      }
+    },
+    {
+      "row_id": 446,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "suma"
+        }
+      }
+    },
+    {
+      "row_id": 446,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "addition"
+        }
+      }
+    },
+    {
+      "row_id": 446,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "sum"
+        }
+      }
+    },
+    {
+      "row_id": 446,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 446,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:19:06.542798774"
+        }
+      }
+    },
+    {
+      "row_id": 447,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "previsto"
+        }
+      }
+    },
+    {
+      "row_id": 447,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "expected, predicted"
+        }
+      }
+    },
+    {
+      "row_id": 447,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 447,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:21:42.253365013"
+        }
+      }
+    },
+    {
+      "row_id": 448,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "plazo"
+        }
+      }
+    },
+    {
+      "row_id": 448,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "installment, payment"
+        }
+      }
+    },
+    {
+      "row_id": 448,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "period, term (time limit)"
+        }
+      }
+    },
+    {
+      "row_id": 448,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 448,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:21:49.277248451"
+        }
+      }
+    },
+    {
+      "row_id": 449,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "además"
+        }
+      }
+    },
+    {
+      "row_id": 449,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "in addition; furthermore"
+        }
+      }
+    },
+    {
+      "row_id": 449,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 449,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:22:07.965018473"
+        }
+      }
+    },
+    {
+      "row_id": 450,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "encajar"
+        }
+      }
+    },
+    {
+      "row_id": 450,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to fit"
+        }
+      }
+    },
+    {
+      "row_id": 450,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 450,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:22:12.781103896"
+        }
+      }
+    },
+    {
+      "row_id": 451,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "sucursal"
+        }
+      }
+    },
+    {
+      "row_id": 451,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "branch (of a company or organization, attributive)"
+        }
+      }
+    },
+    {
+      "row_id": 451,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "branch (of a company or organization)"
+        }
+      }
+    },
+    {
+      "row_id": 451,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 451,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:24:54.643657903"
+        }
+      }
+    },
+    {
+      "row_id": 128,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 128,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:25:04.163242567"
+        }
+      }
+    },
+    {
+      "row_id": 452,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "ámbito"
+        }
+      }
+    },
+    {
+      "row_id": 452,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "scope, field"
+        }
+      }
+    },
+    {
+      "row_id": 452,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 452,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:25:13.419200576"
+        }
+      }
+    },
+    {
+      "row_id": 453,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "inscripción"
+        }
+      }
+    },
+    {
+      "row_id": 453,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "inscription"
+        }
+      }
+    },
+    {
+      "row_id": 453,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 453,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:25:46.746961568"
+        }
+      }
+    },
+    {
+      "row_id": 454,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "asimismo"
+        }
+      }
+    },
+    {
+      "row_id": 454,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "likewise"
+        }
+      }
+    },
+    {
+      "row_id": 454,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 454,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:26:01.794746280"
+        }
+      }
+    },
+    {
+      "row_id": 455,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "crear"
+        }
+      }
+    },
+    {
+      "row_id": 455,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to create"
+        }
+      }
+    },
+    {
+      "row_id": 455,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 455,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:26:07.314660231"
+        }
+      }
+    },
+    {
+      "row_id": 85,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 85,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:26:16.378589763"
+        }
+      }
+    },
+    {
+      "row_id": 456,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "ubicación"
+        }
+      }
+    },
+    {
+      "row_id": 456,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "position; location"
+        }
+      }
+    },
+    {
+      "row_id": 456,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 456,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:29:40.608724173"
+        }
+      }
+    },
+    {
+      "row_id": 457,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "vidrio"
+        }
+      }
+    },
+    {
+      "row_id": 457,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "glass"
+        }
+      }
+    },
+    {
+      "row_id": 457,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 457,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:44:32.169201970"
+        }
+      }
+    },
+    {
+      "row_id": 458,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "docena"
+        }
+      }
+    },
+    {
+      "row_id": 458,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "dozen"
+        }
+      }
+    },
+    {
+      "row_id": 458,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 458,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:44:38.704905529"
+        }
+      }
+    },
+    {
+      "row_id": 459,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "contenedor"
+        }
+      }
+    },
+    {
+      "row_id": 459,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "container"
+        }
+      }
+    },
+    {
+      "row_id": 459,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 459,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:44:44.401202577"
+        }
+      }
+    },
+    {
+      "row_id": 460,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "lleno"
+        }
+      }
+    },
+    {
+      "row_id": 460,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "full"
+        }
+      }
+    },
+    {
+      "row_id": 460,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 460,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:45:04.425052322"
+        }
+      }
+    },
+    {
+      "row_id": 461,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "alojar"
+        }
+      }
+    },
+    {
+      "row_id": 461,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to house, accommodate"
+        }
+      }
+    },
+    {
+      "row_id": 461,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 461,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:45:42.336589906"
+        }
+      }
+    },
+    {
+      "row_id": 462,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "disfrutar"
+        }
+      }
+    },
+    {
+      "row_id": 462,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to enjoy"
+        }
+      }
+    },
+    {
+      "row_id": 462,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 462,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:45:56.968294455"
+        }
+      }
+    },
+    {
+      "row_id": 463,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "espuma"
+        }
+      }
+    },
+    {
+      "row_id": 463,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "foam, mousse"
+        }
+      }
+    },
+    {
+      "row_id": 463,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 463,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:46:02.528131"
+        }
+      }
+    },
+    {
+      "row_id": 464,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "plantilla"
+        }
+      }
+    },
+    {
+      "row_id": 464,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "template"
+        }
+      }
+    },
+    {
+      "row_id": 464,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 464,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:46:17.519979978"
+        }
+      }
+    },
+    {
+      "row_id": 465,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "limpieza"
+        }
+      }
+    },
+    {
+      "row_id": 465,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "cleaning"
+        }
+      }
+    },
+    {
+      "row_id": 465,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "cleanliness"
+        }
+      }
+    },
+    {
+      "row_id": 465,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 465,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:46:24.599976669"
+        }
+      }
+    },
+    {
+      "row_id": 466,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "efectivo"
+        }
+      }
+    },
+    {
+      "row_id": 466,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "effective"
+        }
+      }
+    },
+    {
+      "row_id": 466,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "real, true"
+        }
+      }
+    },
+    {
+      "row_id": 466,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "cash"
+        }
+      }
+    },
+    {
+      "row_id": 466,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 466,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:46:31.447875828"
+        }
+      }
+    },
+    {
+      "row_id": 467,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "balde"
+        }
+      }
+    },
+    {
+      "row_id": 467,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "bin, bucket"
+        }
+      }
+    },
+    {
+      "row_id": 467,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 467,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:46:42.007744434"
+        }
+      }
+    },
+    {
+      "row_id": 468,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "rescatar"
+        }
+      }
+    },
+    {
+      "row_id": 468,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "to rescue"
+        }
+      }
+    },
+    {
+      "row_id": 468,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 468,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:47:59.983474085"
+        }
+      }
+    },
+    {
+      "row_id": 469,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "colgado"
+        }
+      }
+    },
+    {
+      "row_id": 469,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "crazy"
+        }
+      }
+    },
+    {
+      "row_id": 469,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "stoned (on drugs)"
+        }
+      }
+    },
+    {
+      "row_id": 469,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "hanging"
+        }
+      }
+    },
+    {
+      "row_id": 469,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 469,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:48:25.510949055"
+        }
+      }
+    },
+    {
+      "row_id": 470,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "éxito"
+        }
+      }
+    },
+    {
+      "row_id": 470,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "hit; something popular or well received"
+        }
+      }
+    },
+    {
+      "row_id": 470,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "success"
+        }
+      }
+    },
+    {
+      "row_id": 470,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 470,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:49:53.014328661"
+        }
+      }
+    },
+    {
+      "row_id": 471,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "trío"
+        }
+      }
+    },
+    {
+      "row_id": 471,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "a group of three"
+        }
+      }
+    },
+    {
+      "row_id": 471,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "trio, threesome"
+        }
+      }
+    },
+    {
+      "row_id": 471,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 471,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:50:03.790584113"
+        }
+      }
+    },
+    {
+      "row_id": 99,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 99,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:50:10.564881087"
+        }
+      }
+    },
+    {
+      "row_id": 472,
+      "entry": {
+        "name": "name",
+        "value": {
+          "DbString": "vivir"
+        }
+      }
+    },
+    {
+      "row_id": 472,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "life; lifestyle"
+        }
+      }
+    },
+    {
+      "row_id": 472,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "To live; to be alive"
+        }
+      }
+    },
+    {
+      "row_id": 472,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "To make a living"
+        }
+      }
+    },
+    {
+      "row_id": 472,
+      "entry": {
+        "name": "value",
+        "value": {
+          "DbString": "To reside; to inhabit"
+        }
+      }
+    },
+    {
+      "row_id": 472,
+      "entry": {
+        "name": "add_counter",
+        "value": {
+          "DbInt": 1
+        }
+      }
+    },
+    {
+      "row_id": 472,
+      "entry": {
+        "name": "add_date",
+        "value": {
+          "DbDateTime": "2019-07-19T22:50:48.349783861"
         }
       }
     }

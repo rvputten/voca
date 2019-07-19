@@ -1,17 +1,9 @@
-extern crate chrono;
-extern crate serde;
-#[macro_use]
-extern crate serde_derive;
-extern crate serde_json;
-
-mod db;
-
-pub use db::{Data, Db, Entry, Predicate, PredicateType, RowId};
 use std::fs::File;
 use std::io;
 use std::io::BufRead;
 use std::io::BufReader;
 use std::io::Write;
+use vdb::{Data, Db, Entry, Predicate, PredicateType, RowId};
 
 #[derive(Debug)]
 struct DictEntry {

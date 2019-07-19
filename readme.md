@@ -1,6 +1,8 @@
 Vocabulary Trainer
 ==================
-Motivation: Have fun
+Motivation:
+*   Have fun
+*   Test the crate vdb
 
 Source for vocabulary
 =====================

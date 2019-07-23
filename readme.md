@@ -8,7 +8,7 @@ Motivation
 
 State of the project
 --------------------
-*   Search for Spanish words in database with ~4000 entries (see source below)
+*   Search for Spanish words in database with ~70000 entries (~30k Spanish words with ~40k English translations, see source below)
 *   Automatically match ~700 irregular verbs (see source below)
 *   Add results to personal database for review
 

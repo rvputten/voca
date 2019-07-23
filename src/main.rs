@@ -35,7 +35,7 @@ fn read_file_to_vec(filename: &str) -> Vec<String> {
 /// The usage counter lets the user track how many times the word was added to the database
 fn update_counter(db: &mut Db, row_id: RowId) {
     let counter_name = "add_counter";
-    let new_counter = if let Some(entry) = db.get_first_entry_mut(row_id, counter_name) {
+    let new_counter = if let Some(entry) = db.get_first_entry(row_id, counter_name) {
         if let Data::DbInt(counter) = entry.value {
             counter + 1
         } else {
@@ -391,7 +391,7 @@ fn display_stats(db: &Db) {
 
     let mut stats = HashMap::new();
     for date in dates {
-        let mut stat = stats.entry(date).or_insert(0);
+        let stat = stats.entry(date).or_insert(0);
         *stat += 1;
     }
     let mut v: Vec<String> = vec![];

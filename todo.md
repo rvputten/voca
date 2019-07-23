@@ -8,6 +8,8 @@ None.
 
 Ideas for vocabulary
 ====================
+allow editing and adding words with translations
+for stats, count words - not translations
 add regular conjugations
 show conjugations for a verb
     c tener

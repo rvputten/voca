@@ -323,7 +323,6 @@ fn main() {
 
     main_loop(&mut db_vocabulary, &mut db_personal);
 
-    save(&db_personal, db_personal_name);
 }
 
 fn main_loop(db_vocabulary: &mut Db, db_personal: &mut Db) {
@@ -337,11 +336,15 @@ fn main_loop(db_vocabulary: &mut Db, db_personal: &mut Db) {
     while let Ok(_bytes_read) = io::stdin().read_line(&mut input) {
         let trimmed = input.trim();
         if trimmed == "" {
+            display_stats(db_personal);
+            println!();
             break;
         }
 
         if let Ok(number) = trimmed.parse::<usize>() {
             add_to_personal_db(db_vocabulary, db_personal, number);
+            save(&db_personal);
+
             display_personal_db(db_personal, 1, true, None);
         } else {
             let mut words = trimmed.split_whitespace();
@@ -400,6 +403,8 @@ fn display_stats(db: &Db) {
     }
     v.sort();
 
+    println!("Word stats");
+    println!("==========");
     println!();
     println!("Date added Count");
     println!("---------- -----");
@@ -605,8 +610,9 @@ fn add_numbers(db: &mut Db, row_ids: &[RowId], offset: usize) {
     }
 }
 
-fn save(db: &Db, db_name: &str) {
-    println!("Saving database {}.", db_name);
+fn save(db: &Db) {
+    let db_name = db.get_name();
+    println!("Saving database {}.", &db_name);
     if let Ok(_result) = db.save() {
         let predicates = vec![Predicate::new_any_string("value")];
         let row_ids = db.select_row_ids(&predicates, None);
@@ -615,7 +621,7 @@ fn save(db: &Db, db_name: &str) {
         let translations = result.iter().map(|entry| entry.len()).sum::<usize>();
         println!("Saved {} words and {} translations.", words, translations);
     } else {
-        println!("Error saving database {}!", db_name);
+        println!("Error saving database {}!", &db_name);
     }
 }
 

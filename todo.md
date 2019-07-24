@@ -8,6 +8,7 @@ None.
 
 Ideas for vocabulary
 ====================
+runs stats() at end of program
 allow editing and adding words with translations
 for stats, count words - not translations
 add regular conjugations

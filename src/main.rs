@@ -117,7 +117,7 @@ fn add_word(db: &mut Db, word: &str, translations: &[String], add_time: bool, up
 /// Parsing is adapted to the given source file "resources/irregular_verbs/irregular_verbs.txt".
 /// Of the 1321 verbs in the file, 603 do not have a corresponding entry in the vocabulary file
 /// "es-en.txt". However, they seem to all be very rare words, so we ignore them.
-fn load_irregular_verbs(db_vocabulary: &mut Db, db_vocabulary_name: &str, filename: &str) {
+fn load_irregular_verbs(db_vocabulary: &mut Db, filename: &str) {
     if let Some(_row_id) = db_vocabulary.find_first_row_id_by_name("conjugation") {
         println!("Conjugations already loaded, skipping load.");
     } else {
@@ -162,7 +162,7 @@ fn load_irregular_verbs(db_vocabulary: &mut Db, db_vocabulary_name: &str, filena
         }
         println!();
         println!("Saving with conjugations...");
-        save(&db_vocabulary, db_vocabulary_name);
+        save(&db_vocabulary);
     }
 }
 
@@ -201,7 +201,7 @@ fn load_dictionary(
                 }
             }
             println!("\r{} lines loaded.", n);
-            save(&db, db_vocabulary_name);
+            save(&db);
             db
         }
     };
@@ -317,12 +317,10 @@ fn main() {
         load_dictionary(db_vocabulary_name, db_personal_name, filename, false);
     load_irregular_verbs(
         &mut db_vocabulary,
-        db_vocabulary_name,
         "resources/irregular_verbs/irregular_verbs.txt",
     );
 
     main_loop(&mut db_vocabulary, &mut db_personal);
-
 }
 
 fn main_loop(db_vocabulary: &mut Db, db_personal: &mut Db) {
@@ -665,7 +663,7 @@ mod main {
         let filename = "resources/es-en/es-en-sample.txt";
         let conjugations_filename = "resources/irregular_verbs/irregular_verbs_sample.txt";
         let (mut db, _) = load_dictionary(dbname, "dummy", filename, true);
-        load_irregular_verbs(&mut db, filename, conjugations_filename);
+        load_irregular_verbs(&mut db, conjugations_filename);
 
         // "cueces" is a conjugation of "cocer" which is RowId(8)
         let row_ids = find_row_ids(&db, "conjugation", "cueces", PredicateType::Equal, None);
@@ -679,7 +677,7 @@ mod main {
         let filename = "resources/es-en/es-en-sample.txt";
         let conjugations_filename = "resources/irregular_verbs/irregular_verbs_sample.txt";
         let (mut db, _) = load_dictionary(dbname, "dummy", filename, true);
-        load_irregular_verbs(&mut db, filename, conjugations_filename);
+        load_irregular_verbs(&mut db, conjugations_filename);
         let row_ids = find_row_ids(&db, "conjugation", "cueces", PredicateType::Equal, None);
         let entries = super::find_row_ids_to_entries(&db, &row_ids);
         println!("{:?}", entries);

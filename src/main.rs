@@ -35,8 +35,8 @@ fn read_file_to_vec(filename: &str) -> Vec<String> {
 /// The usage counter lets the user track how many times the word was added to the database
 fn update_counter(db: &mut Db, row_id: RowId) {
     let counter_name = "add_counter";
-    let new_counter = if let Some(entry) = db.get_first_entry(row_id, counter_name) {
-        if let Data::DbInt(counter) = entry.value {
+    let new_counter = if let Some(entry) = db.find_first_entry_by_name(row_id, counter_name) {
+        if let Data::DbI32(counter) = entry.value {
             counter + 1
         } else {
             1
@@ -48,7 +48,7 @@ fn update_counter(db: &mut Db, row_id: RowId) {
         row_id,
         Entry {
             name: counter_name.to_string(),
-            value: Data::DbInt(new_counter),
+            value: Data::DbI32(new_counter),
         },
     );
 }
@@ -77,7 +77,7 @@ fn add_word(db: &mut Db, word: &str, translations: &[String], add_time: bool, up
                 .find(|entry| entry.value == Db::db_string(value))
             {
             } else {
-                db.add_entry(
+                db.add_row_id_entry(
                     row_id,
                     Entry {
                         name: String::from("value"),
@@ -98,7 +98,7 @@ fn add_word(db: &mut Db, word: &str, translations: &[String], add_time: bool, up
                 value: Db::db_string(value),
             });
         }
-        let _id = db.add(entries);
+        let _id = db.add_row(entries);
     }
 
     if add_time || update_count {
@@ -147,7 +147,8 @@ fn load_irregular_verbs(db_vocabulary: &mut Db, filename: &str) {
                     } else {
                         ("none", t[0])
                     };
-                    db_vocabulary.add_entry(row_id, Entry::new_string("conjugation", conjugation));
+                    db_vocabulary
+                        .add_row_id_entry(row_id, Entry::new_string("conjugation", conjugation));
                     //println!("{}|{}|{}", infinitive, form_indicator, conjugation);
                 }
             } else {
@@ -162,7 +163,7 @@ fn load_irregular_verbs(db_vocabulary: &mut Db, filename: &str) {
         }
         println!();
         println!("Saving with conjugations...");
-        save(&db_vocabulary);
+        save(db_vocabulary);
     }
 }
 
@@ -201,7 +202,7 @@ fn load_dictionary(
                 }
             }
             println!("\r{} lines loaded.", n);
-            save(&db);
+            save(&mut db);
             db
         }
     };
@@ -236,7 +237,7 @@ fn find_row_ids(
         entry: Entry::new_string(column, name),
     }];
 
-    db.select_row_ids(&predicates, max_results)
+    db.find_row_ids_by_predicate(&predicates, max_results)
 }
 
 fn find_row_ids_to_entries(db: &Db, row_ids: &[RowId]) -> Vec<DictEntry> {
@@ -262,12 +263,12 @@ fn find_row_ids_to_entries(db: &Db, row_ids: &[RowId]) -> Vec<DictEntry> {
         };
         for entry in row {
             match (entry.name.as_str(), &entry.value) {
-                ("search_index", Data::DbInt(n)) => dict_entry.index = Some(*n as usize),
+                ("search_index", Data::DbI32(n)) => dict_entry.index = Some(*n as usize),
                 ("name", Data::DbString(s)) => dict_entry.word = Some(s.to_string()),
                 ("value", Data::DbString(s)) => dict_entry.translations.push(s.to_string()),
                 ("conjugation", Data::DbString(s)) => dict_entry.conjugations.push(s.to_string()),
                 ("add_date", date) => dict_entry.add_date = Some(date.clone()),
-                ("add_counter", Data::DbInt(counter)) => {
+                ("add_counter", Data::DbI32(counter)) => {
                     dict_entry.add_counter = Some(*counter as usize)
                 }
                 _ => panic!("Unknown entry {:?}", entry),
@@ -341,7 +342,7 @@ fn main_loop(db_vocabulary: &mut Db, db_personal: &mut Db) {
 
         if let Ok(number) = trimmed.parse::<usize>() {
             add_to_personal_db(db_vocabulary, db_personal, number);
-            save(&db_personal);
+            save(db_personal);
 
             display_personal_db(db_personal, 1, true, None);
         } else {
@@ -377,7 +378,7 @@ fn sort_db(entries: &mut Vec<DictEntry>) {
 }
 
 fn display_stats(db: &Db) {
-    let row_ids = db.find_by_name("add_date");
+    let row_ids = db.find_row_ids_by_name("add_date");
     let entries = db.entries_from_row_ids(&row_ids, &["add_date"]);
     let dates = entries
         .iter()
@@ -421,7 +422,8 @@ fn display_personal_db(
     println!("Personal dictionary (last {} entries):", max_rows);
 
     let row_ids = if let Some(starts_with) = starts_with {
-        db_personal.select_row_ids(&[Predicate::new_starts_with("name", starts_with)], None)
+        db_personal
+            .find_row_ids_by_predicate(&[Predicate::new_starts_with("name", starts_with)], None)
     } else {
         db_personal.find_all_row_ids()
     };
@@ -498,8 +500,8 @@ fn display_personal_db(
 }
 
 fn add_to_personal_db(db_vocabulary: &mut Db, db_personal: &mut Db, number: usize) {
-    let predicates = vec![Predicate::new_equal_int("search_index", number as i32)];
-    let row_ids = db_vocabulary.select_row_ids(&predicates, Some(1));
+    let predicates = vec![Predicate::new_equal_i32("search_index", number as i32)];
+    let row_ids = db_vocabulary.find_row_ids_by_predicate(&predicates, Some(1));
     for entry in find_row_ids_to_entries(db_vocabulary, &row_ids) {
         if let Some(word) = entry.word {
             //println!("Adding {}: {}", word, entry.translations.join("; "));
@@ -602,18 +604,18 @@ fn add_numbers(db: &mut Db, row_ids: &[RowId], offset: usize) {
             row_id,
             Entry {
                 name: String::from("search_index"),
-                value: Db::db_int(index as i32),
+                value: Db::db_i32(index as i32),
             },
         );
     }
 }
 
-fn save(db: &Db) {
+fn save(db: &mut Db) {
     let db_name = db.get_name();
     println!("Saving database {}.", &db_name);
     if let Ok(_result) = db.save() {
         let predicates = vec![Predicate::new_any_string("value")];
-        let row_ids = db.select_row_ids(&predicates, None);
+        let row_ids = db.find_row_ids_by_predicate(&predicates, None);
         let words = row_ids.len();
         let result = db.entries_from_row_ids(&row_ids, &["value"]);
         let translations = result.iter().map(|entry| entry.len()).sum::<usize>();

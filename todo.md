@@ -15,7 +15,9 @@ add regular conjugations
 show conjugations for a verb
     c tener
 shorter prompt with more functionality
-    "press <h> for help"
+    "enter search term or press <h> for help"
+search translation
+    "e provide"
 have several date columns
   create date
   history of "remembered" and "don't know" answers

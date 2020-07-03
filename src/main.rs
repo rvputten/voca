@@ -16,6 +16,11 @@ struct DictEntry {
     add_counter: Option<usize>,
 }
 
+enum Language {
+    Primary,
+    Secondary,
+}
+
 /// Read lines of a file into a Vec<String>.
 /// Ignores lines beginning with '#'.
 fn read_file_to_vec(filename: &str) -> Vec<String> {
@@ -334,7 +339,7 @@ fn main_loop(db_vocabulary: &mut Db, db_personal: &mut Db) {
     io::stdout().flush().unwrap();
     while let Ok(_bytes_read) = io::stdin().read_line(&mut input) {
         let trimmed = input.trim();
-        if trimmed == "" {
+        if trimmed == "" || trimmed == "exit" || trimmed == "quit" {
             display_stats(db_personal);
             println!();
             break;
@@ -348,12 +353,20 @@ fn main_loop(db_vocabulary: &mut Db, db_personal: &mut Db) {
         } else {
             let mut words = trimmed.split_whitespace();
             match words.next() {
+                Some("h") | Some("?") => help(),
                 Some("p") => display_personal_db(db_personal, 100, false, words.next()),
                 Some("stats") => display_stats(db_personal),
+                Some("e") => {
+                    if let Some(word) = words.next() {
+                        db_vocabulary.delete_entry_all("search_index");
+                        display_personal_db(db_personal, 30, true, None);
+                        find_and_display(db_vocabulary, word, max_results, Language::Secondary);
+                    };
+                }
                 _ => {
                     db_vocabulary.delete_entry_all("search_index");
                     display_personal_db(db_personal, 30, true, None);
-                    find_and_display(db_vocabulary, trimmed, max_results);
+                    find_and_display(db_vocabulary, trimmed, max_results, Language::Primary);
                 }
             }
         }
@@ -375,6 +388,15 @@ fn sort_db(entries: &mut Vec<DictEntry>) {
             _ => entry_a.word.cmp(&entry_b.word),
         },
     );
+}
+
+fn help() {
+    println!();
+    println!("h or ?: this help");
+    println!("p: display personal dictionary");
+    println!("stats: display some statistics");
+    println!("exit: quit this program");
+    println!("anything else: search for expression");
 }
 
 fn display_stats(db: &Db) {
@@ -516,7 +538,9 @@ fn add_to_personal_db(db_vocabulary: &mut Db, db_personal: &mut Db, number: usiz
 /// - Exact search in translations
 /// - Search with String::starts_with()
 /// - Search with String::contains()
-fn find_and_display(db: &mut Db, search_term: &str, max_results: usize) {
+/// max_results: limit number of results displayed
+/// language: If to search for primary (e.g. Spanish) or secondary (e.g. English) language
+fn find_and_display(db: &mut Db, search_term: &str, max_results: usize, language: Language) {
     println!("\nSearch term: {}", search_term);
 
     let rows_equal = find_row_ids(
@@ -565,7 +589,7 @@ fn find_and_display(db: &mut Db, search_term: &str, max_results: usize) {
                 let mut new_search_term = search_term.to_string();
                 new_search_term.pop();
                 if new_search_term.len() >= 3 {
-                    find_and_display(db, &new_search_term, max_results);
+                    find_and_display(db, &new_search_term, max_results, language);
                     return;
                 } else {
                     println!("\n{} not found.", search_term);
